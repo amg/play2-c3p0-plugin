@@ -9,3 +9,8 @@ To use this plugin you need to add `dbplugin=disabled` to your `conf/application
 
 Add `val c3p0 = RootProject(uri("git://github.com/hadashi/play2-c3p0-plugin.git"))` to your `project/Build.scala`
 and then add `.dependsOn(c3p0)` to the `play.Project` line.
+
+
+^^^^^^
+Original plugin written by [Hadashi](https://github.com/hadashi).
+Play dependency has been changed to 2.1.1
